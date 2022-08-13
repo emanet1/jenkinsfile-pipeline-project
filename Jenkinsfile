@@ -5,7 +5,7 @@ pipeline {
             steps {
                 echo 'Clarusway_Way to Reinvent Yourself'
                 sh 'echo Integrating Jenkins Pipeline with GitHub Webhook using Jenkinsfile'
-                sh 'mv pipeline.py ./pipeline2.py'
+                sh 'rm -rf pipeline.py'
             }
         }
     }
